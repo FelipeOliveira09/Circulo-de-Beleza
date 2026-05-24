@@ -1,0 +1,314 @@
+element.style {
+}
+body, .botao.principal, .primary-menu .titulo, .preco-produto .titulo {
+    font-family: 'Poppins', sans-serif !important;
+}
+#barraNewsletter .componente .newsletter-assinar:after, .filtro h4 .limpar, .navbar-search .search-query, .pagina-documentacao, body, button, input, select, textarea {
+body {
+    background-color: var(--ns-body-bg-color, #fff);
+    color: var(--ns-text-color, #444);
+    font-size: var(--ns-body-font-size, 16px);
+}
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+}
+@media (max-width: 979px) {
+    body {
+        padding-top: 0;
+    }
+}
+body {
+    background: #eee;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    color: #666;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fff;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --ns-header-logo-height: 100px !important;
+    --ns-button-primary-bg-color: #010500C3 !important;
+    --ns-button-primary-text-color: var(--ns-white-color);
+    --ns-button-primary-hover-bg-color: var(--ns-primary-color);
+    --ns-button-primary-hover-text-color: var(--ns-white-color);
+    --ns-button-secondary-bg-color: #ddd;
+    --ns-button-secondary-text-color: #000;
+    --ns-button-secondary-hover-bg-color: #ddd;
+    --ns-button-secondary-hover-text-color: #000;
+    --ns-header-bg-color: #000;
+    --ns-titles-display: grid !important;
+    --ns-titles-align-items: baseline !important;
+    --ns-titles-border-bottom: none !important;
+    --ns-titles-separator-display: none !important;
+    --ns-titles-padding: 0 !important;
+    --ns-titles-justify-content: center !important;
+    --ns-titles-text-align: center !important;
+    --ns-titles-separator-left: calc(50% - 75px) !important;
+    --ns-titles-separator-right: unset !important;
+    --ns-titles-separator-bg-color: var(--ns-primary-color) !important;
+    --ns-button-border-radius: 60px !important;
+    --ns-header-mobile-logo-height: var(--ns-header-logo-height) !important;
+}
+:root {
+    --ns-button-small-border-radius: calc(var(--ns-button-border-radius) * .7);
+    --ns-button-mobile-border-radius: var(--ns-button-small-border-radius);
+    --ns-cart-content-coupom-btn-bg-color: var(--ns-button-secondary-bg-color);
+    --ns-cart-content-coupom-btn-text-color: var(--ns-button-secondary-text-color);
+    --ns-action-help-button-bg-color: var(--ns-button-primary-bg-color);
+    --ns-action-help-button-text-color: var(--ns-button-primary-text-color);
+}
+:root {
+    --ns-header-height: 80px;
+    --ns-header-cart-menu-title-color: var(--ns-primary-color);
+    --ns-header-cart-menu-button-bg-color: var(--ns-primary-color);
+    --ns-header-cart-menu-button-text-color: var(--ns-button-primary-text-color);
+    --ns-header-cart-menu-button-icon-color: var(--ns-button-primary-text-color);
+    --ns-header-mobile-search-color: var(--ns-header-icon-color);
+    --ns-header-mobile-search-border-color: var(--ns-header-icon-color);
+    --ns-header-mobile-search-bg-color: var(--ns-header-icon-color);
+    --ns-header-mobile-search-form-text-color: var(--ns-header-icon-color);
+    --ns-header-mobile-search-form-button-color: var(--ns-header-icon-color);
+    --ns-header-mobile-search-form-icon-color: var(--ns-header-icon-color);
+    --ns-header-mobile-search-button-height: 100%;
+}
+:root {
+    --ns-font-family: Lato, sans-serif;
+    --ns-main-menu-mobile-bg-color: #fff;
+    --ns-main-menu-mobile-header-bg-color: var(--ns-primary-color);
+    --ns-main-menu-mobile-header-icon-color: var(--ns-white-color);
+    --ns-main-menu-mobile-header-text-color: var(--ns-white-color);
+    --ns-main-menu-mobile-header-close-bg-color: var(--ns-white-color);
+    --ns-main-menu-mobile-header-close-text-color: var(--ns-primary-color);
+    --ns-main-menu-mobile-content-title-font-size: 1.2rem;
+    --ns-main-menu-mobile-content-link-font-size: 1rem;
+    --ns-main-menu-mobile-content-border-separator: 1px solid #efefef;
+    --ns-main-menu-mobile-content-link-color: var(--ns-title-color);
+    --ns-product-item-border-color: transparent;
+    --ns-product-item-hover-border-color: var(--ns-primary-color);
+    --ns-product-item-badge-promotion-bg-color: #ff7b31;
+    --ns-product-item-badge-promotion-text-color: #fff;
+    --ns-product-item-title-color: var(--ns-title-color);
+    --ns-product-item-text-color: var(--ns-title-color);
+    --ns-product-item-disabled-color: var(--ns-subtitle-color);
+    --ns-product-item-price-color: var(--ns-title-color);
+    --ns-product-item-button-bg-color: var(--ns-button-primary-bg-color);
+    --ns-product-item-button-text-color: var(--ns-button-primary-text-color);
+    --ns-product-item-badge-cart-bg-color: var(--ns-primary-color);
+    --ns-product-item-badge-cart-text-color: #fff;
+    --ns-dropdown-menu-pointer-left: 50%;
+    --ns-dropdown-border-top-color: var(--ns-primary-color);
+    --ns-dropdown-arrow-color: var(--ns-primary-color);
+    --ns-product-item-discount-font-size: .9rem;
+    --ns-product-item-discount-color: green;
+    --ns-product-item-discount-icon-color: green;
+    --ns-product-detail-discount-font-size: .9rem;
+    --ns-product-detail-discount-color: green;
+    --ns-product-detail-discount-icon-color: green;
+}
+:root {
+    --ns-bg-color: #000;
+    --ns-primary-color: #000;
+    --ns-secondary-color: #000;
+    --ns-title-color: #000;
+    --ns-subtitle-color: #fff;
+    --ns-text-color: #fff;
+    --ns-button-primary-bg-color: #000;
+    --ns-button-primary-text-color: #fff;
+}
+<style>
+:root {
+    --swal2-outline: 0 0 0 3px rgba(100, 150, 200, 0.5);
+    --swal2-container-padding: 0.625em;
+    --swal2-backdrop: rgba(0, 0, 0, 0.4);
+    --swal2-backdrop-transition: background-color 0.1s;
+    --swal2-width: 32em;
+    --swal2-padding: 0 0 1.25em;
+    --swal2-border: none;
+    --swal2-border-radius: 0.3125rem;
+    --swal2-background: white;
+    --swal2-color: #545454;
+    --swal2-show-animation: swal2-show 0.3s;
+    --swal2-hide-animation: swal2-hide 0.15s forwards;
+    --swal2-icon-zoom: 1;
+    --swal2-icon-animations: true;
+    --swal2-title-padding: 0.8em 1em 0;
+    --swal2-html-container-padding: 1em 1.6em 0.3em;
+    --swal2-input-border: 1px solid #d9d9d9;
+    --swal2-input-border-radius: 0.1875em;
+    --swal2-input-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;
+    --swal2-input-background: transparent;
+    --swal2-input-transition: border-color 0.2s, box-shadow 0.2s;
+    --swal2-input-hover-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;
+    --swal2-input-focus-border: 1px solid #b4dbed;
+    --swal2-input-focus-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px $ swal2-outline-color;
+    --swal2-progress-step-background: #add8e6;
+    --swal2-validation-message-background: #f0f0f0;
+    --swal2-validation-message-color: #666;
+    --swal2-footer-border-color: #eee;
+    --swal2-footer-background: transparent;
+    --swal2-footer-color: inherit;
+    --swal2-close-button-position: initial;
+    --swal2-close-button-inset: auto;
+    --swal2-close-button-font-size: 2.5em;
+    --swal2-close-button-color: #ccc;
+    --swal2-close-button-transition: color 0.2s, box-shadow 0.2s;
+    --swal2-close-button-outline: initial;
+    --swal2-close-button-box-shadow: inset 0 0 0 3px transparent;
+    --swal2-close-button-focus-box-shadow: inset var(--swal2-outline);
+    --swal2-close-button-hover-transform: none;
+    --swal2-actions-justify-content: center;
+    --swal2-actions-width: auto;
+    --swal2-actions-margin: 1.25em auto 0;
+    --swal2-actions-padding: 0;
+    --swal2-actions-border-radius: 0;
+    --swal2-actions-background: transparent;
+    --swal2-action-button-transition: background-color 0.2s, box-shadow 0.2s;
+    --swal2-action-button-hover: black 10%;
+    --swal2-action-button-active: black 10%;
+    --swal2-confirm-button-box-shadow: none;
+    --swal2-confirm-button-border-radius: 0.25em;
+Show all properties (14 more)
+}
+:root {
+:root, [data-bs-theme=light] {
+    --ns-blue: #0d6efd;
+    --ns-indigo: #6610f2;
+    --ns-purple: #6f42c1;
+    --ns-pink: #d63384;
+    --ns-red: #dc3545;
+    --ns-orange: #fd7e14;
+    --ns-yellow: #ffc107;
+    --ns-green: #198754;
+    --ns-teal: #20c997;
+    --ns-cyan: #0dcaf0;
+    --ns-black: #000;
+    --ns-white: #fff;
+    --ns-gray: #6c757d;
+    --ns-gray-dark: #343a40;
+    --ns-gray-100: #f8f9fa;
+    --ns-gray-200: #e9ecef;
+    --ns-gray-300: #dee2e6;
+    --ns-gray-400: #ced4da;
+    --ns-gray-500: #adb5bd;
+    --ns-gray-600: #6c757d;
+    --ns-gray-700: #495057;
+    --ns-gray-800: #343a40;
+    --ns-gray-900: #212529;
+    --ns-primary: #0d6efd;
+    --ns-secondary: #6c757d;
+    --ns-success: #198754;
+    --ns-info: #0dcaf0;
+    --ns-warning: #ffc107;
+    --ns-danger: #dc3545;
+    --ns-light: #f8f9fa;
+    --ns-dark: #212529;
+    --ns-primary-rgb: 13, 110, 253;
+    --ns-secondary-rgb: 108, 117, 125;
+    --ns-success-rgb: 25, 135, 84;
+    --ns-info-rgb: 13, 202, 240;
+    --ns-warning-rgb: 255, 193, 7;
+    --ns-danger-rgb: 220, 53, 69;
+    --ns-light-rgb: 248, 249, 250;
+    --ns-dark-rgb: 33, 37, 41;
+    --ns-primary-text-emphasis: #052c65;
+    --ns-secondary-text-emphasis: #2b2f32;
+    --ns-success-text-emphasis: #0a3622;
+    --ns-info-text-emphasis: #055160;
+    --ns-warning-text-emphasis: #664d03;
+    --ns-danger-text-emphasis: #58151c;
+    --ns-light-text-emphasis: #495057;
+    --ns-dark-text-emphasis: #495057;
+    --ns-primary-bg-subtle: #cfe2ff;
+    --ns-secondary-bg-subtle: #e2e3e5;
+    --ns-success-bg-subtle: #d1e7dd;
+Show all properties (67 more)
+}
+:root {
+    --ns-bg-color: #fff;
+    --ns-body-bg-color: var(--ns-bg-color);
+    --ns-primary-color: var(--cor-principal);
+    --ns-secondary-color: var(--cor-secundaria);
+    --ns-title-color: #222;
+    --ns-subtitle-color: #999;
+    --ns-text-color: #444;
+    --ns-white-color: #fff;
+    --ns-font-family: Lato, sans-serif;
+    --ns-button-primary-bg-color: var(--ns-primary-color);
+    --ns-button-primary-text-color: var(--ns-white-color);
+    --ns-button-primary-icon-color: var(--ns-white-color);
+    --ns-button-border-radius: 0.3rem;
+    --ns-button-mobile-border-radius: 0.2rem;
+}
+:root {
+    --ns-breakpoint-xs: 0;
+    --ns-breakpoint-sm: 576px;
+    --ns-breakpoint-md: 768px;
+    --ns-breakpoint-lg: 992px;
+    --ns-breakpoint-xl: 1200px;
+    --ns-breakpoint-xxl: 1400px;
+}
+:root, :host {
+    --fa-style-family-classic: 'Font Awesome 6 Free';
+    --fa-font-solid: normal 900 1em / 1 'Font Awesome 6 Free';
+}
+:root, :host {
+    --fa-style-family-classic: 'Font Awesome 6 Free';
+    --fa-font-regular: normal 400 1em / 1 'Font Awesome 6 Free';
+}
+:root, :host {
+    --fa-style-family-brands: 'Font Awesome 6 Brands';
+    --fa-font-brands: normal 400 1em / 1 'Font Awesome 6 Brands';
+}
+:root {
+    --cor-botao: #FEC500;
+}
+:root {
+    --cor-secundaria: #FFFFFF;
+}
+:root {
+    --cor-principal: #FFFFFF;
+    --cor-botao: #FFFFFF;
+}
+:root {
+:root {
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+<style>
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+    unicode-range: U +0900 -097F, U +1CD0 -1CF9, U +200C -200D, U +20A8, U +20B9, U +20F0, U +25CC, U + A830-A839, U + A8E0-A8FF, U +11B00 -11B09;
