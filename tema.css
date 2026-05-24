@@ -5,7 +5,7 @@ body, .botao.principal, .primary-menu .titulo, .preco-produto .titulo {
 }
 #barraNewsletter .componente .newsletter-assinar:after, .filtro h4 .limpar, .navbar-search .search-query, .pagina-documentacao, body, button, input, select, textarea {
 body {
-    background-color: var(--ns-body-bg-color, #fff);
+    background-color: var(--ns-body-bg-color, #ffffff);
     color: var(--ns-text-color, #444);
     font-size: var(--ns-body-font-size, 16px);
 }
@@ -25,7 +25,7 @@ body {
     }
 }
 body {
-    background: #eee;
+    background: #ffffff;
 }
 body {
     font-family: Arial, sans-serif;
