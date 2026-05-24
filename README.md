@@ -1,1 +1,0 @@
-# Circulo-de-Beleza
